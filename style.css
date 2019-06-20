@@ -1,0 +1,368 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: url("./image/back.jpg");
+    font-size: 16px;
+}
+.title{
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+.underline{
+    height: 1px;
+    width: 10%;
+    margin: 2px auto;
+    background-color: white;
+}
+.sp{
+    display: block;
+}
+.cta{
+    display: block;
+    margin:  120px auto;
+}
+.cta_sp{
+    display: none;
+}
+.cta__content{
+    width:60%;
+    margin:  0 auto;
+    padding:0 10%;
+}
+.cta__content img{
+    width:100%;
+}
+.top{
+    display:block;
+}
+.top_sp{
+    display:none;
+}
+.top__content{
+    position: relative;
+}
+.top__content--button{
+    position: absolute;
+    top:55%;
+    left: 20%;
+}
+.top__content--button img{
+    width: 30%;
+}
+.top__content--button--sp{
+    position: absolute;
+    top:60%;
+    left: 6%;    
+}
+.top__content--button--sp img{
+    width: 42%;
+}
+.menu{
+    display: block;
+    margin:0 0 80px 0;
+    padding: 50px 0 0 0;
+}
+.menu__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:0 15%;
+}
+.menu__content a{
+    text-decoration: none;
+    color: white;
+}
+.greeting{
+    margin: 0 0 50px 0;
+}
+.greeting__content{
+    display: block;
+    text-align: center;
+}
+.greeting__content_sp{
+    display: none;
+}
+.greeting__content img{
+    width: 65%;
+}
+.course{
+    margin: 0 0 50px 0;
+}
+.course__content__main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0 0 0;
+    padding:0 15%;
+}
+.course__content__main--image{
+    width: 30%;
+    text-align: center;
+}
+.course__content__main--image img{
+    width: 85%;
+}
+.recommend{
+    margin: 50px 0 50px 0;
+}
+.recommend__content__main{
+    margin: 50px 0 0 0;
+    padding: 0 10%;
+}
+.recommend__content__main--parts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 0;
+    text-align: center;
+}
+.recommend__content__main--parts--image{
+    width: 30%;
+}
+.recommend__content__main--parts--image img{
+    width: 80%;
+}
+.catalog{
+    margin: 50px 0;
+}
+.catalog__content__main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    margin: 60px 0 0 0;
+    padding: 0 15%;
+}
+.catalog__content__main--box{
+    width: 40%;
+    text-align: center;
+}
+.catalog__content__main--box a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.catalog__content__main--box img{
+    width: 60%;
+}
+.box{
+    width: 42%;
+    margin: 15px auto;
+    padding: 5px 5%;
+    border:1px solid;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+.erea{
+    margin: 50px 0;
+}
+.erea__content--txt{
+    margin: 50px 0 30px 0;
+    color: #ffffff;
+    text-align: center;
+}
+.erea__content__main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    align-items: center;
+    padding: 0 15%;    
+}
+.erea__content__main__content{
+    width: 45%;
+    line-height: 2.0;
+}
+.erea__content__main__content img{
+    width: 100%;
+}
+.flow{
+    display: block;
+    margin:0 0 50px 0;
+}
+.flow_sp{
+    display: none;
+    margin:0 0 50px 0;
+}
+.call{
+    display: block;
+    margin:0 0 50px 0;
+}
+.call_sp{
+    display: none;
+}
+.call__content{
+    padding:0 20%;
+    text-align: center;
+}
+.call__content img{
+    width: 90%;
+}
+.flow__content__main{
+    padding:0 10%;
+    margin: 50px auto;
+    text-align: center;
+}
+.flow__content__main img{
+    width: 100%;
+}
+.footer{
+    display: block;
+    background-image: url("./image/slider-ltv4.jpg");
+    margin: 100px 0 0 0;
+    padding: 30px 0;
+}
+.footer_sp{
+    display: none;
+}
+.footer__content{
+    text-align: center;
+}
+.footer__content img{
+    width: 70%;
+}
+/*メディアクエリタブレット以下*/
+@media screen and (max-width:767px) {
+    body{
+        background-image: url("./image/back.jpg");
+    }
+    .title{
+        font-size: 1.2rem
+    }
+    .cta{
+        display: none;
+    }
+    .cta_sp{
+        display: block;
+    }
+    .cta_sp__content{
+        padding: 0 5%;
+    }
+    .cta_sp__content img{
+        width: 100%;
+    }
+    .cta__content{
+        width:90%;
+        margin:  0 auto;
+        padding:0 5%;
+    }
+    .cta__content img{
+        width:100%;
+    }
+    .top{
+        display:none;
+    }
+    .top_sp{
+        display: block;
+    }
+    .menu{
+        display: none;
+        margin:0 0 50px 0;
+        padding: 20px 0 0 0;
+    }
+    .menu__content{
+        padding:0 5%;
+    }
+    .menu a{
+        font-size: 0.4rem;
+    }
+    .greeting__content{
+        display: none;
+    }
+    .greeting__content_sp{
+        display: block;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+    .greeting__content_sp img{
+        width: 95%;
+    }
+    .course__content__main{
+        display: block;
+        padding: 0;
+    }
+    .course__content__main--image{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .course__content__main--image img{
+        width: 100%;
+    }
+    .recommend__content__main--parts{
+        display: block;
+    }
+    .recommend__content__main--parts--image{
+        width: 95%;
+        margin: 10px auto;
+    }
+    .recommend__content__main--parts--image img{
+        width: 100%;
+    }
+    .sp{
+        display: none;
+    }
+    .catalog__content__main{
+        display: block;
+        padding: 0 3%;
+    }
+    .catalog__content__main--box{
+        width: 95%;    
+        margin: 40px auto;
+    }
+    .catalog__content__main--box img{
+        width:100%;
+    }
+    .box{
+        width: 90%;
+    }
+    .erea__content--txt{
+        padding: 0 5%;
+    }
+    .erea__content__main{
+        display: block;
+        padding: 0 10%;    
+    }
+    .erea__content__main__content{
+        width: 100%;
+        margin: 30px 0;
+        font-size: 0.8rem;
+        text-align: center;
+        line-height: 2.2;
+    }
+    .flow{
+        display: none;
+    }
+    .flow_sp{
+        display: block;
+    }
+    .flow_sp__content__main{
+        margin: 50px 0 0 0;
+        text-align: center;
+    }
+    .call{
+        display: none;
+    }
+    .call_sp{
+        display: block;
+    }
+    .call_sp__content{
+        padding:0 2%;
+        text-align: center;
+    }
+    .call_sp__content img{
+        width: 90%;
+    }
+    .footer{
+        display: none;
+    }
+    .footer_sp{
+        display: block;
+        background-image: url("./image/slider-ltv4.jpg");
+        margin: 70px 0 0 0;
+        padding: 10px 0;
+    }
+    .footer_sp__content{
+        text-align: center;
+    }
+    .footer_sp__content img{
+        width: 90%;
+    }
+}
