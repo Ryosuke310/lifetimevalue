@@ -3,6 +3,10 @@ body{
     padding:0;
     background-image: url("./image/back.jpg");
     font-size: 16px;
+    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+}
+p{
+    margin:0;
 }
 .title{
     margin: 0;
@@ -48,15 +52,15 @@ body{
     left: 20%;
 }
 .top__content--button img{
-    width: 30%;
+    width: 35%;
 }
 .top__content--button--sp{
     position: absolute;
-    top:60%;
+    top:59%;
     left: 6%;    
 }
 .top__content--button--sp img{
-    width: 42%;
+    width: 48%;
 }
 .menu{
     display: block;
@@ -97,12 +101,20 @@ body{
     padding:0 15%;
 }
 .course__content__main--image{
-    width: 30%;
-    text-align: center;
+    width:50%;
+    margin:50px 0 0 0;
+    text-align: left;
+    color:white;
 }
 .course__content__main--image img{
-    width: 85%;
-    border:1px solid #222222;
+    width: 90%;
+    /*border:1px solid #222222;*/
+}
+.course__content__main--image--top{
+    font-size:1.2rem;
+}
+.course__content__main--image--under{
+    line-height:1.8;
 }
 .recommend{
     margin: 50px 0 50px 0;
@@ -131,6 +143,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;  
+    align-items: flex-start;
     margin: 60px 0 0 0;
     padding: 0 15%;
 }
@@ -141,6 +154,10 @@ body{
 .catalog__content__main--box a{
     color: #ffffff;
     text-decoration: none;
+}
+.catalog__content__main--box a:hover{
+    color:222222;
+    background-color:white;
 }
 .catalog__content__main--box img{
     width: 60%;
@@ -219,6 +236,13 @@ body{
 }
 .footer__content img{
     width: 70%;
+}
+.left{
+    margin:20px 0 30px 0;
+    height:2px;
+}
+.left2{
+    margin:20px 0;
 }
 /*メディアクエリタブレット以下*/
 @media screen and (max-width:767px) {

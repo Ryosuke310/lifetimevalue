@@ -42,18 +42,18 @@
         <ellipse id="Oval" fill="#A62812" transform="translate(218.500000, 426.000000) scale(-1, 1) translate(-218.500000, -426.000000) " cx="218.5" cy="426" rx="5.5" ry="5"></ellipse>
         <ellipse id="Oval" fill="#042641" transform="translate(682.500000, 26.000000) scale(-1, 1) translate(-682.500000, -26.000000) " cx="682.5" cy="26" rx="5.5" ry="5"></ellipse>
         <ellipse id="Oval" fill="#042641" transform="translate(195.500000, 26.000000) scale(-1, 1) translate(-195.500000, -26.000000) " cx="195.5" cy="26" rx="5.5" ry="5"></ellipse>
-        <text id="一般家庭向け及び高齢者・障がい者施設等へ" fill="#222222" font-family="YuGo-Medium, YuGothic" font-size="20" font-weight="400" line-spacing="25">
-            <tspan x="159" y="163">一般家庭向け及び高齢者・障がい者施設等への食材・惣菜の宅配サービスです。</tspan>
-            <tspan x="159" y="188"></tspan>
-            <tspan x="159" y="213">市場より仕入れた新鮮野菜や当日製造のお惣菜（お弁当）など、</tspan>
-            <tspan x="159" y="238">皆様の食卓を彩る献立をお届けしています。</tspan>
-            <tspan x="159" y="263"></tspan>
-            <tspan x="159" y="288">小さなお子様のいるご家庭など買い物に行くことが難しい方、一人暮らしなどで</tspan>
-            <tspan x="159" y="313">調理するのが大変な方、施設や寮の食事まで、食事なら何でも宅配致します。</tspan>
-            <tspan x="159" y="338"></tspan>
-            <tspan x="159" y="363">お気軽にご相談ください！</tspan>
+        <text id="一般家庭向け及び高齢者・障がい者施設等へ" fill="#222222" font-family="HiraKakuPro-W3, Hiragino Kaku Gothic Pro" font-size="20" font-weight="300" line-spacing="28">
+            <tspan x="159" y="153">一般家庭向け及び高齢者・障がい者施設等への食材・惣菜の宅配サービスです。</tspan>
+            <tspan x="159" y="181"></tspan>
+            <tspan x="159" y="209">市場より仕入れた新鮮野菜や当日製造のお惣菜（お弁当）など、</tspan>
+            <tspan x="159" y="237">皆様の食卓を彩る献立をお届けしています。</tspan>
+            <tspan x="159" y="265"></tspan>
+            <tspan x="159" y="293">小さなお子様のいるご家庭など買い物に行くことが難しい方、一人暮らしなどで</tspan>
+            <tspan x="159" y="321">調理するのが大変な方、施設や寮の食事まで、食事なら何でも宅配致します。</tspan>
+            <tspan x="159" y="349"></tspan>
+            <tspan x="159" y="377">お気軽にご相談ください！</tspan>
         </text>
-        <text id="ライフタイムバリューとは" fill="#222222" font-family="YuGo-Medium, YuGothic" font-size="25" font-weight="400">
+        <text id="ライフタイムバリューとは" fill="#222222" font-family="HiraKakuPro-W3, Hiragino Kaku Gothic Pro" font-size="25" font-weight="300">
             <tspan x="358.5" y="88">ライフタイムバリューとは</tspan>
         </text>
         <rect id="Rectangle" fill="#069925" x="459" y="107" width="94" height="3"></rect>

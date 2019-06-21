@@ -6,46 +6,46 @@
     <g id="flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle" fill="#FEDC6C" x="39" y="9" width="267" height="148"></rect>
         <rect id="Rectangle" fill="#FEDC6C" x="334" y="9" width="267" height="148"></rect>
-        <text id="1" fill="#FFE7A2" font-family="YuGo-Bold, YuGothic" font-size="100" font-weight="bold" letter-spacing="17.8571434">
-            <tspan x="242.921428" y="145">1</tspan>
+        <text id="1" fill="#FFE7A2" font-family="HiraKakuPro-W6, Hiragino Kaku Gothic Pro" font-size="100" font-weight="500" letter-spacing="17.8571396">
+            <tspan x="237" y="145">1</tspan>
         </text>
-        <text id="2" fill="#FFE7A2" font-family="YuGo-Bold, YuGothic" font-size="100" font-weight="bold" letter-spacing="17.85714">
-            <tspan x="534.92143" y="148">2</tspan>
+        <text id="2" fill="#FFE7A2" font-family="HiraKakuPro-W6, Hiragino Kaku Gothic Pro" font-size="100" font-weight="500" letter-spacing="17.8571396">
+            <tspan x="529" y="148">2</tspan>
         </text>
         <rect id="Rectangle" fill="#FEDC6C" x="629" y="8" width="267" height="148"></rect>
-        <text id="3" fill="#FFE7A2" font-family="YuGo-Bold, YuGothic" font-size="100" font-weight="bold" letter-spacing="17.85714">
-            <tspan x="828.92143" y="147">3</tspan>
+        <text id="3" fill="#FFE7A2" font-family="HiraKakuPro-W6, Hiragino Kaku Gothic Pro" font-size="100" font-weight="500" letter-spacing="17.8571396">
+            <tspan x="823" y="147">3</tspan>
         </text>
         <rect id="Rectangle" fill="#FEDC6C" x="924" y="9" width="267" height="148"></rect>
-        <text id="4" fill="#FFE7A2" font-family="YuGo-Bold, YuGothic" font-size="100" font-weight="bold" letter-spacing="17.85714">
-            <tspan x="1123.92143" y="148">4</tspan>
+        <text id="4" fill="#FFE7A2" font-family="HiraKakuPro-W6, Hiragino Kaku Gothic Pro" font-size="100" font-weight="500" letter-spacing="17.8571396">
+            <tspan x="1118" y="148">4</tspan>
         </text>
         <rect id="Rectangle" fill="#FEDC6C" x="1220" y="9" width="267" height="148"></rect>
-        <text id="5" fill="#FFE7A2" font-family="YuGo-Bold, YuGothic" font-size="100" font-weight="bold" letter-spacing="17.85714">
-            <tspan x="1419.92143" y="148">5</tspan>
+        <text id="5" fill="#FFE7A2" font-family="HiraKakuPro-W6, Hiragino Kaku Gothic Pro" font-size="100" font-weight="500" letter-spacing="17.8571396">
+            <tspan x="1414" y="148">5</tspan>
         </text>
-        <text id="フリーダイヤル-または申し込み-フォーム" fill="#222222" font-family="YuGo-Bold, YuGothic" font-size="18" font-weight="bold" line-spacing="20" letter-spacing="3.21000004">
+        <text id="フリーダイヤル-または申し込み-フォーム" fill="#222222" font-family="HiraKakuPro-W6, Hiragino Kaku Gothic Pro" font-size="18" font-weight="500" line-spacing="20" letter-spacing="3.21000004">
             <tspan x="79" y="58">フリーダイヤル</tspan>
             <tspan x="79" y="78">または申し込み</tspan>
             <tspan x="79" y="98">フォームより</tspan>
             <tspan x="79" y="118">ご連絡ください。</tspan>
         </text>
-        <text id="ご希望の商品を-お申し込み下さい。-(W" fill="#222222" font-family="YuGo-Bold, YuGothic" font-size="18" font-weight="bold" line-spacing="20" letter-spacing="3.21000004">
+        <text id="ご希望の商品を-お申し込み下さい。-(W" fill="#222222" font-family="HiraKakuPro-W6, Hiragino Kaku Gothic Pro" font-size="18" font-weight="500" line-spacing="20" letter-spacing="3.21000004">
             <tspan x="668" y="58">ご希望の商品を</tspan>
             <tspan x="668" y="78">お申し込み下さい。</tspan>
             <tspan x="668" y="98">(WEBでも注文</tspan>
             <tspan x="668" y="118">できます)</tspan>
         </text>
-        <text id="メニューカタログ-をお届け致します。" fill="#222222" font-family="YuGo-Bold, YuGothic" font-size="17" font-weight="bold" line-spacing="25" letter-spacing="3.21000004">
+        <text id="メニューカタログ-をお届け致します。" fill="#222222" font-family="HiraKakuPro-W6, Hiragino Kaku Gothic Pro" font-size="17" font-weight="500" line-spacing="25" letter-spacing="3.21000004">
             <tspan x="373" y="65">メニューカタログ</tspan>
             <tspan x="373" y="90">をお届け致します。</tspan>
         </text>
-        <text id="配達日に1日分-ずつご自宅まで-お届け致" fill="#222222" font-family="YuGo-Bold, YuGothic" font-size="18" font-weight="bold" line-spacing="22" letter-spacing="3.21000004">
+        <text id="配達日に1日分-ずつご自宅まで-お届け致" fill="#222222" font-family="HiraKakuPro-W6, Hiragino Kaku Gothic Pro" font-size="18" font-weight="500" line-spacing="22" letter-spacing="3.21000004">
             <tspan x="963" y="63">配達日に1日分</tspan>
             <tspan x="963" y="85">ずつご自宅まで</tspan>
             <tspan x="963" y="107">お届け致します。</tspan>
         </text>
-        <text id="ご集金はご注文時-またはお届け時に-賜り" fill="#222222" font-family="YuGo-Bold, YuGothic" font-size="17" font-weight="bold" line-spacing="20" letter-spacing="3.03166676">
+        <text id="ご集金はご注文時-またはお届け時に-賜り" fill="#222222" font-family="HiraKakuPro-W6, Hiragino Kaku Gothic Pro" font-size="17" font-weight="500" line-spacing="20" letter-spacing="3.03166699">
             <tspan x="1256" y="57">ご集金はご注文時</tspan>
             <tspan x="1256" y="77">またはお届け時に</tspan>
             <tspan x="1256" y="97">賜ります。口座</tspan>
