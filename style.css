@@ -17,6 +17,7 @@ p{
     height: 1px;
     width: 10%;
     margin: 2px auto;
+    margin-bottom:50px;
     background-color: white;
 }
 .sp{
@@ -253,6 +254,20 @@ p.course__content__main--image--under.txtleft{
     margin: 0;
     color: white;
 }
+.swiper-container {
+  margin: 0 auto!important;
+  width:100%;
+}
+.swiper-slide{
+    width: 25%!important;
+}
+.swiper-wrapper img{
+  width:100%;
+}
+.swiper-container {
+  margin: 0 auto!important;
+  width:100%;
+}
 /*メディアクエリタブレット以下*/
 @media screen and (max-width:767px) {
     body{
@@ -399,5 +414,8 @@ p.course__content__main--image--under.txtleft{
     }
     .footer_sp__content img{
         width: 90%;
+    }
+    .swiper-slide{
+        width: 80%!important;
     }
 }
