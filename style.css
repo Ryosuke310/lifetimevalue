@@ -113,6 +113,9 @@ p{
 .course__content__main--image--top{
     font-size:1.2rem;
 }
+.course__content__main--image--under{
+    margin:0 0 30px 0;
+}
 p.course__content__main--image--under.txtleft{
     margin:30px 0 0 0;
     line-height:1.8;
