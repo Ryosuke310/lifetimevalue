@@ -8,6 +8,10 @@ body{
 p{
     margin:0;
 }
+a{
+    color:#ffffff!important;
+    text-decoration: none!important;
+}
 .title{
     margin: 0;
     text-align: center;
