@@ -261,6 +261,7 @@ p.course__content__main--image--under.txtleft{
 .swiper-container {
   margin: 0 auto!important;
   width:100%;
+  display: none;
 }
 .swiper-slide{
     width: 25%!important;
@@ -271,6 +272,21 @@ p.course__content__main--image--under.txtleft{
 .swiper-container {
   margin: 0 auto!important;
   width:100%;
+}
+.example__content--main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    align-items: flex-start;    
+    padding:0 10%;
+}
+.example__content--main--image{
+    width:28%;
+    margin:10px 0;
+    text-align: center;
+}
+.example__content--main--image img{
+    width: 95%;
 }
 /*メディアクエリタブレット以下*/
 @media screen and (max-width:767px) {
@@ -419,7 +435,13 @@ p.course__content__main--image--under.txtleft{
     .footer_sp__content img{
         width: 90%;
     }
+    .swiper-container{
+        display: block;
+    }
     .swiper-slide{
         width: 90%!important;
+    }
+    .example__content--main{
+        display: none;
     }
 }
