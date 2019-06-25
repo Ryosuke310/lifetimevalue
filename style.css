@@ -66,6 +66,12 @@ a{
 .top__content--button--sp img{
     width: 48%;
 }
+.top__content--button a:hover {
+	opacity:0.8;
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
 .menu{
     display: block;
     margin:0 0 80px 0;
