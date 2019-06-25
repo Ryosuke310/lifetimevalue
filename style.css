@@ -82,7 +82,7 @@ a{
     color: white;
 }
 .greeting{
-    margin: 0 0 50px 0;
+    margin: 0 0 80px 0;
 }
 .greeting__content{
     display: block;
@@ -117,11 +117,9 @@ a{
 .course__content__main--image--top{
     font-size:1.2rem;
 }
-.course__content__main--image--under{
-    margin:0 0 30px 0;
-}
 p.course__content__main--image--under.txtleft{
-    margin:30px 0 0 0;
+    margin:0 0 50px 0;
+    padding:70px 0 0 0;
     line-height:1.8;
 }
 .recommend{
@@ -145,19 +143,24 @@ p.course__content__main--image--under.txtleft{
     width: 80%;
 }
 .catalog{
-    margin: 50px 0;
+    margin: 80px 0;
 }
 .catalog__content__main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;  
-    align-items: flex-start;
     margin: 60px 0 0 0;
     padding: 0 15%;
 }
 .catalog__content__main--box{
-    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;     
+    align-items: center;
     text-align: center;
+}
+.catalog__content__main--box--content1{
+    width: 40%;
+}
+.catalog__content__main--box--content2{
+    width: 40%;
 }
 .catalog__content__main--box a{
     color: #ffffff;
@@ -166,6 +169,11 @@ p.course__content__main--image--under.txtleft{
 .catalog__content__main--box a:hover{
     color:222222;
     background-color:white;
+}
+.catalog__content__main--box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
 }
 .catalog__content__main--box img{
     width: 100%;
@@ -179,7 +187,7 @@ p.course__content__main--image--under.txtleft{
     font-size: 0.8rem;
 }
 .erea{
-    margin: 50px 0;
+    margin: 80px 0;
 }
 .erea__content--txt{
     margin: 50px 0 30px 0;
@@ -254,7 +262,7 @@ p.course__content__main--image--under.txtleft{
 }
 .txtleft{
     text-align: left;
-    margin: 0;
+    margin: 0 ;
     color: white;
 }
 .swiper-container {
@@ -285,6 +293,10 @@ p.course__content__main--image--under.txtleft{
 }
 .example__content--main--image img{
     width: 95%;
+}
+.fs{
+    display: block;
+    font-size: 1.4rem;
 }
 /*メディアクエリタブレット以下*/
 @media screen and (max-width:767px) {
@@ -367,6 +379,9 @@ p.course__content__main--image--under.txtleft{
     .sp{
         display: none;
     }
+    .catalog{
+        margin: 50px 0;
+    }
     .catalog__content__main{
         display: block;
         padding: 0 3%;
@@ -380,6 +395,27 @@ p.course__content__main--image--under.txtleft{
     }
     .box{
         width: 90%;
+    }
+    .catalog__content__main--box{
+        display: block;
+    }
+    .catalog__content__main--box--content1{
+        width: 100%;
+    }
+    .catalog__content__main--box--content2{
+        width: 100%;
+        padding: 0;
+    }
+    p.course__content__main--image--under.txtleft {
+        margin: 20px 0 30px 0;
+        padding: 0;
+        line-height: 1.8;
+    }
+    .fs{
+        display: none;
+    }
+    .erea{
+        margin: 50px 0;
     }
     .erea__content--txt{
         padding: 0 5%;
