@@ -81,11 +81,12 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding:0 15%;
+    padding:0 12% 0 9%;
 }
 .menu__content a{
     text-decoration: none;
     color: white;
+    font-size: 1.2rem;
 }
 .greeting{
     margin: 0 0 80px 0;
@@ -107,8 +108,12 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     margin: 50px 0 0 0;
     padding:0 12%;
+}
+.course__content--title{
+    padding:20px 0 0 0;
 }
 .course__content__main--image{
     width:50%;
@@ -125,7 +130,7 @@ a{
 }
 p.course__content__main--image--under.txtleft{
     margin:0 0 50px 0;
-    padding:70px 0 0 2%;
+    padding:50px 0 0 2%;
     line-height:1.8;
 }
 .recommend{
@@ -187,10 +192,10 @@ p.course__content__main--image--under.txtleft{
 .box{
     width: 80%;
     margin: 15px auto;
-    padding: 10px 5%;
+    padding: 18px 7%;
     border:1px solid;
     border-radius: 5px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 .erea{
     margin: 80px 0;
@@ -208,7 +213,7 @@ p.course__content__main--image--under.txtleft{
     padding: 0 15%;    
 }
 .erea__content__main__content{
-    width: 45%;
+    width: 70%;
     line-height: 2.0;
 }
 .erea__content__main__content img{
@@ -260,11 +265,12 @@ p.course__content__main--image--under.txtleft{
     width: 70%;
 }
 .left{
-    margin:30px 0 40px 0;
+    margin:40px 0 55px 0;
     height:2px;
 }
 .left2{
     margin:40px 0 0 0;
+    padding:18px 7%;
 }
 .txtleft{
     text-align: left;
@@ -303,6 +309,36 @@ p.course__content__main--image--under.txtleft{
 .fs{
     display: block;
     font-size: 1.4rem;
+}
+#pageTop {
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  display: block;
+}
+#pageTop i {
+  padding-top: 6px;
+  padding-right:7px;
+}
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 8px 0 0 8px;
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+  background-color: #9FD6D2;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+.fa-thumbs-up{
+    color:pink;
 }
 /*メディアクエリタブレット以下*/
 @media screen and (max-width:767px) {
@@ -390,7 +426,7 @@ p.course__content__main--image--under.txtleft{
     }
     .catalog__content__main{
         display: block;
-        padding: 0 3%;
+        padding: 0;
     }
     .catalog__content__main--box{
         width: 95%;    
@@ -401,6 +437,8 @@ p.course__content__main--image--under.txtleft{
     }
     .box{
         width: 90%;
+        padding: 10px 5%;
+        font-size: 0.8rem;
     }
     .catalog__content__main--box{
         display: block;
@@ -490,5 +528,8 @@ p.course__content__main--image--under.txtleft{
     }
     .left2{
         margin:30px 0 0 0;
+    }
+    #pageTop {
+      display: none!important;
     }
 }
