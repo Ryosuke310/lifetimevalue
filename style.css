@@ -386,6 +386,9 @@ p.course__content__main--image--under.txtleft{
     .menu a{
         font-size: 0.4rem;
     }
+    .greeting{
+        margin: 0 0 50px 0;
+    }
     .greeting__content{
         display: none;
     }
